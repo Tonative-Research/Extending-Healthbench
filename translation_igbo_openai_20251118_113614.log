@@ -1,0 +1,8 @@
+2025-11-18 11:36:22,530 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_691c3e358c90819097f4b0b416ada73a "HTTP/1.1 200 OK"
+2025-11-18 11:36:22,590 - INFO - Loading original data for merging
+2025-11-18 11:36:26,623 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_691c3e358c90819097f4b0b416ada73a "HTTP/1.1 200 OK"
+2025-11-18 11:36:28,057 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-YTm6w1BC3LUJrnqbFa4QZG/content "HTTP/1.1 200 OK"
+2025-11-18 11:36:28,991 - INFO - Downloaded and parsed 196 batch results.
+2025-11-18 11:36:28,993 - INFO - Saving translated dataset to data/igbo_test50.jsonl
+2025-11-18 11:36:32,217 - INFO - Saved 5000 translated records to data/igbo_test50.jsonl
+2025-11-18 11:36:32,217 - INFO - Batch translations merged and saved to data/igbo_test50.jsonl

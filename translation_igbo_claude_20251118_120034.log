@@ -1,0 +1,453 @@
+2025-11-18 12:00:34,953 - INFO - Loading data from data/2025-05-07-06-14-12_oss_eval.jsonl
+2025-11-18 12:00:36,106 - INFO - Using test size: 50
+2025-11-18 12:00:36,110 - INFO - Prepared 196 translation requests from 50 records.
+2025-11-18 12:00:36,111 - INFO - Starting realtime translation for 196 items (provider=claude)
+2025-11-18 12:00:36,112 - INFO - (1/196) Translating prompt id=1f548d5b-cd00-49a0-b327-283a2e00debd_prompt
+2025-11-18 12:00:43,282 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:00:43,444 - INFO - (2/196) Translating prompt id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_prompt
+2025-11-18 12:01:02,625 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:01:02,732 - INFO - (3/196) Translating ideal_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ideal
+2025-11-18 12:01:27,920 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:01:28,035 - INFO - (4/196) Translating ref_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ref_0
+2025-11-18 12:01:56,080 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:01:56,192 - INFO - (5/196) Translating ref_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ref_1
+2025-11-18 12:02:06,525 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:02:06,632 - INFO - (6/196) Translating ref_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ref_2
+2025-11-18 12:02:18,191 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:02:18,305 - INFO - (7/196) Translating ref_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ref_3
+2025-11-18 12:02:44,926 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:02:45,038 - INFO - (8/196) Translating prompt id=6f7a2ee9-e9c6-42d8-b79f-22dea966b8d2_prompt
+2025-11-18 12:02:46,473 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:02:46,578 - INFO - (9/196) Translating prompt id=19ec4833-86e9-4166-8b82-d1da09f31fd7_prompt
+2025-11-18 12:02:48,308 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:02:48,411 - INFO - (10/196) Translating ideal_completion id=19ec4833-86e9-4166-8b82-d1da09f31fd7_ideal
+2025-11-18 12:02:55,369 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:02:55,472 - INFO - (11/196) Translating ref_completion id=19ec4833-86e9-4166-8b82-d1da09f31fd7_ref_0
+2025-11-18 12:03:07,565 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:03:07,671 - INFO - (12/196) Translating ref_completion id=19ec4833-86e9-4166-8b82-d1da09f31fd7_ref_1
+2025-11-18 12:03:14,518 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:03:14,626 - INFO - (13/196) Translating ref_completion id=19ec4833-86e9-4166-8b82-d1da09f31fd7_ref_2
+2025-11-18 12:03:24,866 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:03:24,972 - INFO - (14/196) Translating ref_completion id=19ec4833-86e9-4166-8b82-d1da09f31fd7_ref_3
+2025-11-18 12:03:42,574 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:03:42,685 - INFO - (15/196) Translating prompt id=7ebc830a-8dbd-489b-9d61-4d8bacf0db8d_prompt
+2025-11-18 12:03:44,522 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:03:44,627 - INFO - (16/196) Translating ideal_completion id=7ebc830a-8dbd-489b-9d61-4d8bacf0db8d_ideal
+2025-11-18 12:03:51,244 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:03:51,353 - INFO - (17/196) Translating ref_completion id=7ebc830a-8dbd-489b-9d61-4d8bacf0db8d_ref_0
+2025-11-18 12:03:59,571 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:03:59,683 - INFO - (18/196) Translating ref_completion id=7ebc830a-8dbd-489b-9d61-4d8bacf0db8d_ref_1
+2025-11-18 12:04:25,786 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:04:25,903 - INFO - (19/196) Translating ref_completion id=7ebc830a-8dbd-489b-9d61-4d8bacf0db8d_ref_2
+2025-11-18 12:04:47,498 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:04:47,611 - INFO - (20/196) Translating ref_completion id=7ebc830a-8dbd-489b-9d61-4d8bacf0db8d_ref_3
+2025-11-18 12:04:56,655 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:04:56,768 - INFO - (21/196) Translating prompt id=c971f9d1-5f6a-464e-b282-41c8f0d82f58_prompt
+2025-11-18 12:04:59,480 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:04:59,584 - INFO - (22/196) Translating ideal_completion id=c971f9d1-5f6a-464e-b282-41c8f0d82f58_ideal
+2025-11-18 12:05:26,498 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:05:26,610 - INFO - (23/196) Translating ref_completion id=c971f9d1-5f6a-464e-b282-41c8f0d82f58_ref_0
+2025-11-18 12:05:40,030 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:05:40,139 - INFO - (24/196) Translating ref_completion id=c971f9d1-5f6a-464e-b282-41c8f0d82f58_ref_1
+2025-11-18 12:05:55,695 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:05:55,801 - INFO - (25/196) Translating ref_completion id=c971f9d1-5f6a-464e-b282-41c8f0d82f58_ref_2
+2025-11-18 12:06:02,483 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:06:02,487 - INFO - Retrying request to /v1/messages in 0.494678 seconds
+2025-11-18 12:06:04,401 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:06:04,402 - INFO - Retrying request to /v1/messages in 0.808992 seconds
+2025-11-18 12:06:11,877 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:06:11,877 - ERROR - translate_text() failed for input prefix 'I'm sorry to hear that you're experiencing these symptoms. G...': Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': None}
+2025-11-18 12:06:11,981 - INFO - (26/196) Translating ref_completion id=c971f9d1-5f6a-464e-b282-41c8f0d82f58_ref_3
+2025-11-18 12:06:43,919 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:06:44,042 - INFO - (27/196) Translating prompt id=5a6e4a41-3ea6-4050-a971-93433fe34877_prompt
+2025-11-18 12:06:45,503 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:06:45,609 - INFO - (28/196) Translating ideal_completion id=5a6e4a41-3ea6-4050-a971-93433fe34877_ideal
+2025-11-18 12:06:51,096 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:06:51,203 - INFO - (29/196) Translating prompt id=78510411-e03b-4f93-a369-c7e72d2e4908_prompt
+2025-11-18 12:06:52,004 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:06:52,111 - INFO - (30/196) Translating ideal_completion id=78510411-e03b-4f93-a369-c7e72d2e4908_ideal
+2025-11-18 12:06:55,291 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:06:55,397 - INFO - (31/196) Translating ref_completion id=78510411-e03b-4f93-a369-c7e72d2e4908_ref_0
+2025-11-18 12:06:56,659 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:06:56,770 - INFO - (32/196) Translating ref_completion id=78510411-e03b-4f93-a369-c7e72d2e4908_ref_1
+2025-11-18 12:07:01,129 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:07:01,234 - INFO - (33/196) Translating ref_completion id=78510411-e03b-4f93-a369-c7e72d2e4908_ref_2
+2025-11-18 12:07:02,687 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:07:02,691 - INFO - Retrying request to /v1/messages in 0.478894 seconds
+2025-11-18 12:07:04,504 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:07:04,512 - INFO - Retrying request to /v1/messages in 0.811100 seconds
+2025-11-18 12:07:06,968 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:07:07,169 - INFO - (34/196) Translating ref_completion id=78510411-e03b-4f93-a369-c7e72d2e4908_ref_3
+2025-11-18 12:07:08,503 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:07:08,504 - INFO - Retrying request to /v1/messages in 0.423471 seconds
+2025-11-18 12:07:10,348 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:07:10,350 - INFO - Retrying request to /v1/messages in 0.942076 seconds
+2025-11-18 12:07:12,087 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:07:12,090 - ERROR - translate_text() failed for input prefix '**EXAM:** Chest X-ray (AP, 1 view, portable)  
+**DATE:** 7/1...': Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': None}
+2025-11-18 12:07:12,192 - INFO - (35/196) Translating prompt id=bbd759b4-8e4d-4db7-bc36-f2e069396c1c_prompt
+2025-11-18 12:07:28,165 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:07:28,271 - INFO - (36/196) Translating ideal_completion id=bbd759b4-8e4d-4db7-bc36-f2e069396c1c_ideal
+2025-11-18 12:07:40,453 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:07:40,561 - INFO - (37/196) Translating ref_completion id=bbd759b4-8e4d-4db7-bc36-f2e069396c1c_ref_0
+2025-11-18 12:08:05,848 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:08:05,848 - INFO - Retrying request to /v1/messages in 0.466292 seconds
+2025-11-18 12:08:08,101 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:08:08,104 - INFO - Retrying request to /v1/messages in 0.931417 seconds
+2025-11-18 12:08:10,871 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:08:10,871 - ERROR - translate_text() failed for input prefix 'I’m really sorry you’re feeling this way. What you’re descri...': Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': None}
+2025-11-18 12:08:10,975 - INFO - (38/196) Translating ref_completion id=bbd759b4-8e4d-4db7-bc36-f2e069396c1c_ref_1
+2025-11-18 12:08:23,302 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:08:23,409 - INFO - (39/196) Translating ref_completion id=bbd759b4-8e4d-4db7-bc36-f2e069396c1c_ref_2
+2025-11-18 12:08:41,908 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:08:42,024 - INFO - (40/196) Translating ref_completion id=bbd759b4-8e4d-4db7-bc36-f2e069396c1c_ref_3
+2025-11-18 12:08:51,823 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:08:51,939 - INFO - (41/196) Translating prompt id=8f2a65de-dea7-48e8-8adb-6194eca26c08_prompt
+2025-11-18 12:08:53,714 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:08:53,822 - INFO - (42/196) Translating prompt id=6d5f483c-3e86-456d-bfd5-4e28de699ae5_prompt
+2025-11-18 12:08:54,541 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:08:54,659 - INFO - (43/196) Translating ideal_completion id=6d5f483c-3e86-456d-bfd5-4e28de699ae5_ideal
+2025-11-18 12:09:03,033 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:09:03,035 - INFO - Retrying request to /v1/messages in 0.405939 seconds
+2025-11-18 12:09:04,670 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:09:04,670 - INFO - Retrying request to /v1/messages in 0.803421 seconds
+2025-11-18 12:09:06,866 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:09:06,866 - ERROR - translate_text() failed for input prefix 'I'm sorry to hear that you're experiencing symptoms that mak...': Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': None}
+2025-11-18 12:09:06,976 - INFO - (44/196) Translating ref_completion id=6d5f483c-3e86-456d-bfd5-4e28de699ae5_ref_0
+2025-11-18 12:09:07,657 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:09:07,673 - INFO - Retrying request to /v1/messages in 0.485678 seconds
+2025-11-18 12:09:08,957 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:09:08,960 - INFO - Retrying request to /v1/messages in 0.891382 seconds
+2025-11-18 12:09:22,201 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:09:22,310 - INFO - (45/196) Translating ref_completion id=6d5f483c-3e86-456d-bfd5-4e28de699ae5_ref_1
+2025-11-18 12:09:50,195 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:09:50,300 - INFO - (46/196) Translating ref_completion id=6d5f483c-3e86-456d-bfd5-4e28de699ae5_ref_2
+2025-11-18 12:09:59,834 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:09:59,950 - INFO - (47/196) Translating ref_completion id=6d5f483c-3e86-456d-bfd5-4e28de699ae5_ref_3
+2025-11-18 12:10:06,739 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:10:06,743 - INFO - Retrying request to /v1/messages in 0.376550 seconds
+2025-11-18 12:10:37,092 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:10:37,532 - INFO - (48/196) Translating prompt id=f05491d8-d160-4b2b-bd5b-59d757585e39_prompt
+2025-11-18 12:10:38,269 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:10:38,373 - INFO - (49/196) Translating ideal_completion id=f05491d8-d160-4b2b-bd5b-59d757585e39_ideal
+2025-11-18 12:10:45,109 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:10:50,687 - INFO - (50/196) Translating ref_completion id=f05491d8-d160-4b2b-bd5b-59d757585e39_ref_0
+2025-11-18 12:10:59,975 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:11:00,085 - INFO - (51/196) Translating ref_completion id=f05491d8-d160-4b2b-bd5b-59d757585e39_ref_1
+2025-11-18 12:11:07,110 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:11:08,742 - INFO - (52/196) Translating ref_completion id=f05491d8-d160-4b2b-bd5b-59d757585e39_ref_2
+2025-11-18 12:11:11,510 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:11:11,612 - INFO - (53/196) Translating ref_completion id=f05491d8-d160-4b2b-bd5b-59d757585e39_ref_3
+2025-11-18 12:11:13,101 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:11:13,216 - INFO - (54/196) Translating prompt id=85408180-238e-4c1b-92c1-55d8ce6c3717_prompt
+2025-11-18 12:11:42,898 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:11:43,039 - INFO - (55/196) Translating ideal_completion id=85408180-238e-4c1b-92c1-55d8ce6c3717_ideal
+2025-11-18 12:11:45,803 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:11:45,906 - INFO - (56/196) Translating ref_completion id=85408180-238e-4c1b-92c1-55d8ce6c3717_ref_0
+2025-11-18 12:11:48,188 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:11:48,348 - INFO - (57/196) Translating ref_completion id=85408180-238e-4c1b-92c1-55d8ce6c3717_ref_1
+2025-11-18 12:11:50,886 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:11:50,994 - INFO - (58/196) Translating ref_completion id=85408180-238e-4c1b-92c1-55d8ce6c3717_ref_2
+2025-11-18 12:11:53,112 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:11:53,219 - INFO - (59/196) Translating ref_completion id=85408180-238e-4c1b-92c1-55d8ce6c3717_ref_3
+2025-11-18 12:11:55,357 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:11:55,461 - INFO - (60/196) Translating prompt id=ecd7453e-1dc1-4e52-bb95-67e8e5788573_prompt
+2025-11-18 12:11:57,110 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:11:57,215 - INFO - (61/196) Translating prompt id=0e073591-b3e7-4dc8-94d0-dc5aa93ca35c_prompt
+2025-11-18 12:11:58,867 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:11:58,972 - INFO - (62/196) Translating ideal_completion id=0e073591-b3e7-4dc8-94d0-dc5aa93ca35c_ideal
+2025-11-18 12:12:06,078 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:12:06,196 - INFO - (63/196) Translating ref_completion id=0e073591-b3e7-4dc8-94d0-dc5aa93ca35c_ref_0
+2025-11-18 12:12:11,998 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:12:12,101 - INFO - (64/196) Translating ref_completion id=0e073591-b3e7-4dc8-94d0-dc5aa93ca35c_ref_1
+2025-11-18 12:12:19,923 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:12:20,026 - INFO - (65/196) Translating ref_completion id=0e073591-b3e7-4dc8-94d0-dc5aa93ca35c_ref_2
+2025-11-18 12:12:23,510 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:12:23,614 - INFO - (66/196) Translating ref_completion id=0e073591-b3e7-4dc8-94d0-dc5aa93ca35c_ref_3
+2025-11-18 12:12:52,390 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:12:52,503 - INFO - (67/196) Translating prompt id=7637b987-8fe2-49d0-8372-1ebf17284d70_prompt
+2025-11-18 12:12:55,553 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:12:55,659 - INFO - (68/196) Translating ideal_completion id=7637b987-8fe2-49d0-8372-1ebf17284d70_ideal
+2025-11-18 12:12:59,341 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:12:59,451 - INFO - (69/196) Translating ref_completion id=7637b987-8fe2-49d0-8372-1ebf17284d70_ref_0
+2025-11-18 12:13:01,280 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:13:01,387 - INFO - (70/196) Translating ref_completion id=7637b987-8fe2-49d0-8372-1ebf17284d70_ref_1
+2025-11-18 12:13:09,604 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:13:09,604 - INFO - Retrying request to /v1/messages in 0.412295 seconds
+2025-11-18 12:13:17,901 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:13:18,016 - INFO - (71/196) Translating ref_completion id=7637b987-8fe2-49d0-8372-1ebf17284d70_ref_2
+2025-11-18 12:13:23,031 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:13:23,137 - INFO - (72/196) Translating ref_completion id=7637b987-8fe2-49d0-8372-1ebf17284d70_ref_3
+2025-11-18 12:13:26,484 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:13:26,592 - INFO - (73/196) Translating prompt id=5b294937-13e5-424e-8bb4-5d1904a2344a_prompt
+2025-11-18 12:13:30,386 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:13:30,498 - INFO - (74/196) Translating ideal_completion id=5b294937-13e5-424e-8bb4-5d1904a2344a_ideal
+2025-11-18 12:13:31,993 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:13:32,099 - INFO - (75/196) Translating prompt id=c5bf7fc3-dfb0-4b47-9bbe-222e87b952e2_prompt
+2025-11-18 12:13:57,582 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:13:57,704 - INFO - (76/196) Translating ideal_completion id=c5bf7fc3-dfb0-4b47-9bbe-222e87b952e2_ideal
+2025-11-18 12:13:59,191 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:13:59,297 - INFO - (77/196) Translating ref_completion id=c5bf7fc3-dfb0-4b47-9bbe-222e87b952e2_ref_0
+2025-11-18 12:14:00,481 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:14:00,585 - INFO - (78/196) Translating ref_completion id=c5bf7fc3-dfb0-4b47-9bbe-222e87b952e2_ref_1
+2025-11-18 12:14:03,359 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:14:03,466 - INFO - (79/196) Translating ref_completion id=c5bf7fc3-dfb0-4b47-9bbe-222e87b952e2_ref_2
+2025-11-18 12:14:07,183 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:14:07,197 - INFO - Retrying request to /v1/messages in 0.401706 seconds
+2025-11-18 12:14:28,310 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:14:28,421 - INFO - (80/196) Translating ref_completion id=c5bf7fc3-dfb0-4b47-9bbe-222e87b952e2_ref_3
+2025-11-18 12:14:34,232 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:14:34,340 - INFO - (81/196) Translating prompt id=83cf8f2d-2857-4f01-a283-9595d8f4ae8e_prompt
+2025-11-18 12:14:37,600 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:14:37,705 - INFO - (82/196) Translating ideal_completion id=83cf8f2d-2857-4f01-a283-9595d8f4ae8e_ideal
+2025-11-18 12:14:45,236 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:14:45,344 - INFO - (83/196) Translating prompt id=7a4548e6-38b7-48dd-9088-d7d1219f7852_prompt
+2025-11-18 12:14:48,737 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:14:48,848 - INFO - (84/196) Translating ideal_completion id=7a4548e6-38b7-48dd-9088-d7d1219f7852_ideal
+2025-11-18 12:15:00,857 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:15:00,972 - INFO - (85/196) Translating ref_completion id=7a4548e6-38b7-48dd-9088-d7d1219f7852_ref_0
+2025-11-18 12:15:10,832 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:15:10,832 - INFO - Retrying request to /v1/messages in 0.498062 seconds
+2025-11-18 12:15:21,426 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:15:21,536 - INFO - (86/196) Translating ref_completion id=7a4548e6-38b7-48dd-9088-d7d1219f7852_ref_1
+2025-11-18 12:15:51,760 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:15:51,871 - INFO - (87/196) Translating ref_completion id=7a4548e6-38b7-48dd-9088-d7d1219f7852_ref_2
+2025-11-18 12:16:01,402 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:16:01,508 - INFO - (88/196) Translating ref_completion id=7a4548e6-38b7-48dd-9088-d7d1219f7852_ref_3
+2025-11-18 12:16:10,828 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:16:10,830 - INFO - Retrying request to /v1/messages in 0.387037 seconds
+2025-11-18 12:16:19,252 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:16:19,360 - INFO - (89/196) Translating prompt id=e0d1b955-1150-457e-96d7-91a9481999cd_prompt
+2025-11-18 12:16:20,961 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:16:21,066 - INFO - (90/196) Translating ideal_completion id=e0d1b955-1150-457e-96d7-91a9481999cd_ideal
+2025-11-18 12:16:46,960 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:16:47,088 - INFO - (91/196) Translating ref_completion id=e0d1b955-1150-457e-96d7-91a9481999cd_ref_0
+2025-11-18 12:16:50,540 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:16:50,643 - INFO - (92/196) Translating ref_completion id=e0d1b955-1150-457e-96d7-91a9481999cd_ref_1
+2025-11-18 12:16:54,522 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:16:54,634 - INFO - (93/196) Translating ref_completion id=e0d1b955-1150-457e-96d7-91a9481999cd_ref_2
+2025-11-18 12:16:56,855 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:16:56,958 - INFO - (94/196) Translating ref_completion id=e0d1b955-1150-457e-96d7-91a9481999cd_ref_3
+2025-11-18 12:17:00,665 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:17:00,766 - INFO - (95/196) Translating prompt id=24f9a6e7-b214-4011-94c4-6502f249a621_prompt
+2025-11-18 12:17:01,730 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:17:01,844 - INFO - (96/196) Translating ideal_completion id=24f9a6e7-b214-4011-94c4-6502f249a621_ideal
+2025-11-18 12:17:30,020 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:17:30,147 - INFO - (97/196) Translating prompt id=6a97773b-c33c-4f2e-9ac3-fdd53de0f175_prompt
+2025-11-18 12:17:32,255 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:17:32,362 - INFO - (98/196) Translating ideal_completion id=6a97773b-c33c-4f2e-9ac3-fdd53de0f175_ideal
+2025-11-18 12:17:38,798 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:17:38,905 - INFO - (99/196) Translating prompt id=f32ee0c1-ea9c-4cfb-8332-bd9579d23024_prompt
+2025-11-18 12:17:43,646 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:17:43,751 - INFO - (100/196) Translating ideal_completion id=f32ee0c1-ea9c-4cfb-8332-bd9579d23024_ideal
+2025-11-18 12:17:48,201 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:17:48,312 - INFO - (101/196) Translating prompt id=b6eb69cb-b911-4c81-a7a1-357d21d27109_prompt
+2025-11-18 12:17:50,678 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:17:50,783 - INFO - (102/196) Translating ideal_completion id=b6eb69cb-b911-4c81-a7a1-357d21d27109_ideal
+2025-11-18 12:17:54,469 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:17:54,577 - INFO - (103/196) Translating prompt id=c0dc053b-157b-4d13-9956-213b67ff6a36_prompt
+2025-11-18 12:17:56,073 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:17:56,178 - INFO - (104/196) Translating prompt id=3bb4a735-ace7-4342-b7a5-0bae083e6f82_prompt
+2025-11-18 12:17:58,313 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:17:58,421 - INFO - (105/196) Translating ideal_completion id=3bb4a735-ace7-4342-b7a5-0bae083e6f82_ideal
+2025-11-18 12:18:10,914 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:18:11,018 - INFO - (106/196) Translating ref_completion id=3bb4a735-ace7-4342-b7a5-0bae083e6f82_ref_0
+2025-11-18 12:18:21,896 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:18:22,004 - INFO - (107/196) Translating ref_completion id=3bb4a735-ace7-4342-b7a5-0bae083e6f82_ref_1
+2025-11-18 12:18:40,231 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:18:40,337 - INFO - (108/196) Translating ref_completion id=3bb4a735-ace7-4342-b7a5-0bae083e6f82_ref_2
+2025-11-18 12:18:53,993 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:18:54,101 - INFO - (109/196) Translating ref_completion id=3bb4a735-ace7-4342-b7a5-0bae083e6f82_ref_3
+2025-11-18 12:19:07,106 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:19:07,106 - INFO - Retrying request to /v1/messages in 0.477095 seconds
+2025-11-18 12:19:14,367 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:19:14,367 - INFO - Retrying request to /v1/messages in 0.774568 seconds
+2025-11-18 12:19:29,422 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:19:29,542 - INFO - (110/196) Translating prompt id=66b448bf-2e49-488d-9d0b-f9912ab3f0f8_prompt
+2025-11-18 12:19:31,335 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:19:31,437 - INFO - (111/196) Translating prompt id=b12d2453-fd3b-462c-b9cc-554ff16bfd3f_prompt
+2025-11-18 12:19:32,890 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:19:33,001 - INFO - (112/196) Translating ideal_completion id=b12d2453-fd3b-462c-b9cc-554ff16bfd3f_ideal
+2025-11-18 12:19:40,510 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:19:40,618 - INFO - (113/196) Translating prompt id=0a548d04-0973-4343-a3bf-07f730bed2f6_prompt
+2025-11-18 12:19:43,071 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:19:43,177 - INFO - (114/196) Translating ideal_completion id=0a548d04-0973-4343-a3bf-07f730bed2f6_ideal
+2025-11-18 12:19:47,550 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:19:47,664 - INFO - (115/196) Translating ref_completion id=0a548d04-0973-4343-a3bf-07f730bed2f6_ref_0
+2025-11-18 12:19:52,352 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:19:52,454 - INFO - (116/196) Translating ref_completion id=0a548d04-0973-4343-a3bf-07f730bed2f6_ref_1
+2025-11-18 12:20:01,735 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:20:01,840 - INFO - (117/196) Translating ref_completion id=0a548d04-0973-4343-a3bf-07f730bed2f6_ref_2
+2025-11-18 12:20:08,610 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:20:08,610 - INFO - Retrying request to /v1/messages in 0.424670 seconds
+2025-11-18 12:20:15,254 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:20:15,359 - INFO - (118/196) Translating ref_completion id=0a548d04-0973-4343-a3bf-07f730bed2f6_ref_3
+2025-11-18 12:20:44,920 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:20:45,032 - INFO - (119/196) Translating prompt id=e2cd9f23-e3dd-4b67-8984-a5412dd802e5_prompt
+2025-11-18 12:20:47,481 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:20:47,587 - INFO - (120/196) Translating ideal_completion id=e2cd9f23-e3dd-4b67-8984-a5412dd802e5_ideal
+2025-11-18 12:21:14,656 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:21:14,768 - INFO - (121/196) Translating ref_completion id=e2cd9f23-e3dd-4b67-8984-a5412dd802e5_ref_0
+2025-11-18 12:21:20,761 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:21:20,865 - INFO - (122/196) Translating ref_completion id=e2cd9f23-e3dd-4b67-8984-a5412dd802e5_ref_1
+2025-11-18 12:21:37,776 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:21:37,893 - INFO - (123/196) Translating ref_completion id=e2cd9f23-e3dd-4b67-8984-a5412dd802e5_ref_2
+2025-11-18 12:21:44,690 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:21:44,797 - INFO - (124/196) Translating ref_completion id=e2cd9f23-e3dd-4b67-8984-a5412dd802e5_ref_3
+2025-11-18 12:21:58,776 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:21:58,884 - INFO - (125/196) Translating prompt id=1fb6ab91-a999-437d-8c93-c5937c0a89a3_prompt
+2025-11-18 12:21:59,905 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:22:00,009 - INFO - (126/196) Translating prompt id=42af0c9f-a715-45c4-ab24-c2948f6f943d_prompt
+2025-11-18 12:22:27,901 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:22:28,009 - INFO - (127/196) Translating ideal_completion id=42af0c9f-a715-45c4-ab24-c2948f6f943d_ideal
+2025-11-18 12:22:35,530 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:22:35,637 - INFO - (128/196) Translating ref_completion id=42af0c9f-a715-45c4-ab24-c2948f6f943d_ref_0
+2025-11-18 12:22:43,570 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:22:43,678 - INFO - (129/196) Translating ref_completion id=42af0c9f-a715-45c4-ab24-c2948f6f943d_ref_1
+2025-11-18 12:22:49,425 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:22:49,532 - INFO - (130/196) Translating ref_completion id=42af0c9f-a715-45c4-ab24-c2948f6f943d_ref_2
+2025-11-18 12:22:55,421 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:22:55,531 - INFO - (131/196) Translating ref_completion id=42af0c9f-a715-45c4-ab24-c2948f6f943d_ref_3
+2025-11-18 12:23:01,813 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:23:01,920 - INFO - (132/196) Translating prompt id=a94aad40-387e-4a37-b92f-61badd57388b_prompt
+2025-11-18 12:23:09,491 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:23:09,594 - INFO - (133/196) Translating ideal_completion id=a94aad40-387e-4a37-b92f-61badd57388b_ideal
+2025-11-18 12:23:20,001 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:23:20,112 - INFO - (134/196) Translating prompt id=596ba714-29f7-447e-aa73-88d46ecd6e88_prompt
+2025-11-18 12:23:21,361 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:23:21,470 - INFO - (135/196) Translating prompt id=1233737e-2674-41d3-8519-b817aeb0b32e_prompt
+2025-11-18 12:23:24,543 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:23:24,648 - INFO - (136/196) Translating ideal_completion id=1233737e-2674-41d3-8519-b817aeb0b32e_ideal
+2025-11-18 12:23:29,738 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:23:29,844 - INFO - (137/196) Translating prompt id=c80a2a84-281d-41cc-a10b-32ee48c584f6_prompt
+2025-11-18 12:23:56,211 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:23:56,316 - INFO - (138/196) Translating prompt id=bf7718f2-bceb-4702-8d74-a7fc1bd7fb78_prompt
+2025-11-18 12:23:58,454 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:23:58,562 - INFO - (139/196) Translating ideal_completion id=bf7718f2-bceb-4702-8d74-a7fc1bd7fb78_ideal
+2025-11-18 12:24:05,427 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:24:05,437 - INFO - Retrying request to /v1/messages in 0.397135 seconds
+2025-11-18 12:24:12,530 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:24:12,530 - INFO - Retrying request to /v1/messages in 0.864790 seconds
+2025-11-18 12:24:44,689 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:24:44,797 - INFO - (140/196) Translating ref_completion id=bf7718f2-bceb-4702-8d74-a7fc1bd7fb78_ref_0
+2025-11-18 12:24:56,207 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:24:56,315 - INFO - (141/196) Translating ref_completion id=bf7718f2-bceb-4702-8d74-a7fc1bd7fb78_ref_1
+2025-11-18 12:25:05,127 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:25:05,127 - INFO - Retrying request to /v1/messages in 0.384638 seconds
+2025-11-18 12:25:12,315 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:25:12,315 - INFO - Retrying request to /v1/messages in 0.960586 seconds
+2025-11-18 12:25:42,877 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:25:42,986 - INFO - (142/196) Translating ref_completion id=bf7718f2-bceb-4702-8d74-a7fc1bd7fb78_ref_2
+2025-11-18 12:25:57,911 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:25:58,028 - INFO - (143/196) Translating ref_completion id=bf7718f2-bceb-4702-8d74-a7fc1bd7fb78_ref_3
+2025-11-18 12:26:05,674 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-11-18 12:26:05,675 - INFO - Retrying request to /v1/messages in 0.428044 seconds
+2025-11-18 12:26:25,193 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:26:25,302 - INFO - (144/196) Translating prompt id=b7a82324-73ee-4996-8f71-8f455f789e90_prompt
+2025-11-18 12:26:27,430 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:26:27,538 - INFO - (145/196) Translating ideal_completion id=b7a82324-73ee-4996-8f71-8f455f789e90_ideal
+2025-11-18 12:26:31,673 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:26:31,778 - INFO - (146/196) Translating ref_completion id=b7a82324-73ee-4996-8f71-8f455f789e90_ref_0
+2025-11-18 12:26:41,174 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:26:41,285 - INFO - (147/196) Translating ref_completion id=b7a82324-73ee-4996-8f71-8f455f789e90_ref_1
+2025-11-18 12:26:52,617 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:26:52,724 - INFO - (148/196) Translating ref_completion id=b7a82324-73ee-4996-8f71-8f455f789e90_ref_2
+2025-11-18 12:26:58,348 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:26:58,462 - INFO - (149/196) Translating ref_completion id=b7a82324-73ee-4996-8f71-8f455f789e90_ref_3
+2025-11-18 12:27:04,343 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:27:04,449 - INFO - (150/196) Translating prompt id=22fe3eec-03b0-4cdf-a06a-87e71d236082_prompt
+2025-11-18 12:27:08,710 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:27:08,816 - INFO - (151/196) Translating ideal_completion id=22fe3eec-03b0-4cdf-a06a-87e71d236082_ideal
+2025-11-18 12:27:15,793 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:27:15,903 - INFO - (152/196) Translating ref_completion id=22fe3eec-03b0-4cdf-a06a-87e71d236082_ref_0
+2025-11-18 12:27:25,032 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:27:25,140 - INFO - (153/196) Translating ref_completion id=22fe3eec-03b0-4cdf-a06a-87e71d236082_ref_1
+2025-11-18 12:27:38,470 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:27:38,580 - INFO - (154/196) Translating ref_completion id=22fe3eec-03b0-4cdf-a06a-87e71d236082_ref_2
+2025-11-18 12:27:50,308 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:27:50,418 - INFO - (155/196) Translating ref_completion id=22fe3eec-03b0-4cdf-a06a-87e71d236082_ref_3
+2025-11-18 12:27:56,391 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:27:56,495 - INFO - (156/196) Translating prompt id=6c568ea6-86bd-4286-94ba-e3ccc8b67b21_prompt
+2025-11-18 12:27:57,508 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:27:57,611 - INFO - (157/196) Translating prompt id=905949d2-7a0a-4461-8f4b-257de6be6eed_prompt
+2025-11-18 12:27:59,215 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:27:59,317 - INFO - (158/196) Translating ideal_completion id=905949d2-7a0a-4461-8f4b-257de6be6eed_ideal
+2025-11-18 12:28:03,426 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:28:03,543 - INFO - (159/196) Translating ref_completion id=905949d2-7a0a-4461-8f4b-257de6be6eed_ref_0
+2025-11-18 12:28:29,776 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:28:29,893 - INFO - (160/196) Translating ref_completion id=905949d2-7a0a-4461-8f4b-257de6be6eed_ref_1
+2025-11-18 12:28:39,374 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:28:39,483 - INFO - (161/196) Translating ref_completion id=905949d2-7a0a-4461-8f4b-257de6be6eed_ref_2
+2025-11-18 12:28:46,896 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:28:47,000 - INFO - (162/196) Translating ref_completion id=905949d2-7a0a-4461-8f4b-257de6be6eed_ref_3
+2025-11-18 12:29:15,143 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:29:15,436 - INFO - (163/196) Translating prompt id=c653b6eb-f9b9-4626-b702-ff73d71e8253_prompt
+2025-11-18 12:29:16,880 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:29:16,986 - INFO - (164/196) Translating ideal_completion id=c653b6eb-f9b9-4626-b702-ff73d71e8253_ideal
+2025-11-18 12:29:42,926 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:29:43,185 - INFO - (165/196) Translating ref_completion id=c653b6eb-f9b9-4626-b702-ff73d71e8253_ref_0
+2025-11-18 12:29:59,380 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:29:59,492 - INFO - (166/196) Translating ref_completion id=c653b6eb-f9b9-4626-b702-ff73d71e8253_ref_1
+2025-11-18 12:30:08,188 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:30:08,883 - INFO - (167/196) Translating ref_completion id=c653b6eb-f9b9-4626-b702-ff73d71e8253_ref_2
+2025-11-18 12:30:37,639 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:30:37,748 - INFO - (168/196) Translating ref_completion id=c653b6eb-f9b9-4626-b702-ff73d71e8253_ref_3
+2025-11-18 12:30:48,828 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:30:48,933 - INFO - (169/196) Translating prompt id=cf09b209-5434-4317-aa2a-7b07537b475e_prompt
+2025-11-18 12:30:50,749 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:30:50,854 - INFO - (170/196) Translating prompt id=77c0be2e-364a-40de-ae21-a277154e3d60_prompt
+2025-11-18 12:30:53,397 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:30:53,499 - INFO - (171/196) Translating ideal_completion id=77c0be2e-364a-40de-ae21-a277154e3d60_ideal
+2025-11-18 12:31:20,518 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:31:20,630 - INFO - (172/196) Translating ref_completion id=77c0be2e-364a-40de-ae21-a277154e3d60_ref_0
+2025-11-18 12:31:31,440 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:31:31,552 - INFO - (173/196) Translating ref_completion id=77c0be2e-364a-40de-ae21-a277154e3d60_ref_1
+2025-11-18 12:31:39,100 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:31:39,205 - INFO - (174/196) Translating ref_completion id=77c0be2e-364a-40de-ae21-a277154e3d60_ref_2
+2025-11-18 12:31:45,772 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:31:45,890 - INFO - (175/196) Translating ref_completion id=77c0be2e-364a-40de-ae21-a277154e3d60_ref_3
+2025-11-18 12:32:13,654 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:32:13,766 - INFO - (176/196) Translating prompt id=af750930-5fa5-4efe-8f85-b499641377d4_prompt
+2025-11-18 12:32:15,557 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:32:15,664 - INFO - (177/196) Translating ideal_completion id=af750930-5fa5-4efe-8f85-b499641377d4_ideal
+2025-11-18 12:32:21,647 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:32:21,753 - INFO - (178/196) Translating ref_completion id=af750930-5fa5-4efe-8f85-b499641377d4_ref_0
+2025-11-18 12:32:29,432 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:32:29,536 - INFO - (179/196) Translating ref_completion id=af750930-5fa5-4efe-8f85-b499641377d4_ref_1
+2025-11-18 12:32:40,894 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:32:41,002 - INFO - (180/196) Translating ref_completion id=af750930-5fa5-4efe-8f85-b499641377d4_ref_2
+2025-11-18 12:32:47,083 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:32:47,199 - INFO - (181/196) Translating ref_completion id=af750930-5fa5-4efe-8f85-b499641377d4_ref_3
+2025-11-18 12:32:52,969 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:32:53,073 - INFO - (182/196) Translating prompt id=af62e0b8-bbd0-4dcc-b55c-cb4c7bbcfb2c_prompt
+2025-11-18 12:32:55,082 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:32:55,199 - INFO - (183/196) Translating ideal_completion id=af62e0b8-bbd0-4dcc-b55c-cb4c7bbcfb2c_ideal
+2025-11-18 12:32:59,622 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:32:59,908 - INFO - (184/196) Translating prompt id=f3729e05-61ef-4306-9491-6f5659d4eef9_prompt
+2025-11-18 12:33:03,725 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:33:03,842 - INFO - (185/196) Translating prompt id=126236de-9e7a-4814-b5d7-98cbe89b33b2_prompt
+2025-11-18 12:33:05,652 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:33:05,759 - INFO - (186/196) Translating ideal_completion id=126236de-9e7a-4814-b5d7-98cbe89b33b2_ideal
+2025-11-18 12:33:08,197 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:33:08,311 - INFO - (187/196) Translating ref_completion id=126236de-9e7a-4814-b5d7-98cbe89b33b2_ref_0
+2025-11-18 12:33:19,276 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:33:19,383 - INFO - (188/196) Translating ref_completion id=126236de-9e7a-4814-b5d7-98cbe89b33b2_ref_1
+2025-11-18 12:33:26,995 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:33:27,099 - INFO - (189/196) Translating ref_completion id=126236de-9e7a-4814-b5d7-98cbe89b33b2_ref_2
+2025-11-18 12:33:35,094 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:33:35,208 - INFO - (190/196) Translating ref_completion id=126236de-9e7a-4814-b5d7-98cbe89b33b2_ref_3
+2025-11-18 12:33:42,066 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:33:42,176 - INFO - (191/196) Translating prompt id=9bb31d40-c155-4213-868d-103fa0cc7c56_prompt
+2025-11-18 12:33:44,509 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:33:44,620 - INFO - (192/196) Translating ideal_completion id=9bb31d40-c155-4213-868d-103fa0cc7c56_ideal
+2025-11-18 12:33:53,282 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:33:53,389 - INFO - (193/196) Translating ref_completion id=9bb31d40-c155-4213-868d-103fa0cc7c56_ref_0
+2025-11-18 12:34:23,215 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:34:23,621 - INFO - (194/196) Translating ref_completion id=9bb31d40-c155-4213-868d-103fa0cc7c56_ref_1
+2025-11-18 12:34:32,173 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:34:32,459 - INFO - (195/196) Translating ref_completion id=9bb31d40-c155-4213-868d-103fa0cc7c56_ref_2
+2025-11-18 12:34:40,854 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:34:40,967 - INFO - (196/196) Translating ref_completion id=9bb31d40-c155-4213-868d-103fa0cc7c56_ref_3
+2025-11-18 12:35:08,648 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-11-18 12:35:08,764 - INFO - Saving translated dataset to data/igbo_test50_claude.jsonl
+2025-11-18 12:35:08,851 - INFO - Saved 50 translated records to data/igbo_test50_claude.jsonl
