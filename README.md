@@ -5,7 +5,13 @@ Exttending HealthBench is a research project focused on improving the safety, ac
 Today, nearly all medical evaluation datasets (including the original OpenAI HealthBench) exist only in English. This results in:
 
 - Models producing unsafe or incorrect medical outputs when used in African languages
-
 - Lack of evaluation tools for African languages
-
 - Inability for researchers to measure how well LLMs perform in real local contexts
+  
+Our project addresses these gaps by building the first multilingual medical AI evaluation benchmark for African languages, starting with:
+- Igbo
+- Yoruba
+- Nigerian Pidgin
+- Kikuyu
+- Swahili
+We combine LLM-as-judge evaluations and human medical expert evaluations to measure safety, correctness, and usability across languages.
