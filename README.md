@@ -120,12 +120,31 @@ ANTHROPIC_API_KEY=your_claude_key
         ]
 ```
 - In the prompts folder, create a new prompt file for the language you are translating to example: ```igbo.json```, then add this lines of code changing every occurance of igbo to your target language
-  ```
+```
   {
   "language": "igbo",
   "system_prompt": "You are an expert translator specializing in English → Igbo medical translation.\n\nTranslation rules:\n1. Keep drug names in English.\n2. Keep medical abbreviations like CPR, ECG, AHA in English.\n3. Keep measurements as digits.\n4. Translate descriptive text naturally.\n5. Keep academic citations exactly.\n6. Output ONLY the Igbo translation.\n\nTranslate the following medical text into Igbo:"}
 ```
+- In the healthbench_translator.py file, change every occurance of igbo to your target language. Below are the parts of the file where you have to make the changes.
+__
 ```
+def __init__(
+        self,
+        provider: str,
+        api_key: str,
+        lang: str = "igbo",
+        model: Optional[str] = None,
+        use_batch: bool = True,
+        prompts_dir: str = "translator/prompts"
+    )
+```
+__
+Change ```lang: str = "igbo",``` to your target language
+
+
+
+
+
 
 
 
