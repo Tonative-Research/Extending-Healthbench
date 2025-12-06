@@ -30,3 +30,45 @@ By building a multilingual benchmark, we enable:
 - A baseline for future medical AI development in African languages
 
 ## Project Outputs
+- A multilingual translation of the OpenAI HealthBench dataset
+- An evaluation benchmark
+- A research paper
+
+## Project Code Structure
+```
+Tonative-openai/
+│
+|── data/
+│   ├── (local_datasets).jsonl             # original dataset
+|
+|── output_data/
+│   ├── (translated_dataset_for_openai).jsonl             # translated dataset
+|   ├── (translated_dataset_for_openai).jsonl      
+|
+├── translator/
+│
+│   ├── healthbench_translator.py       # main translation pipeline
+│   ├── providers/
+│   │   ├── openai_provider.py          # OpenAI wrapper
+│   │   ├── claude_provider.py          # Anthropic wrapper
+│   │
+│   ├── prompts/                        # per-language translation rules
+│   │   ├── yoruba.json
+│   │   ├── igbo.json
+│   │   ├── pidgin.json
+│   │   ├── kikuyu.json
+│   │   ├── swahili.json
+│   │
+│   ├── artifacts/
+│   │   ├── artifacts_patterns.py           # removes artifacts from translations
+│      
+├── scripts/
+│   ├── run_translation.py              # CLI runner
+│   ├── run_batch_job.py                # batch job status + download
+│
+├── .env.example
+├── requirements.txt
+└── README.md
+
+```
+
