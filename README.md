@@ -28,3 +28,5 @@ By building a multilingual benchmark, we enable:
 - Better tools for African NLP researchers
 - Evaluation methods tailored to real-world African health contexts
 - A baseline for future medical AI development in African languages
+
+## Project Outputs
