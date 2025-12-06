@@ -138,7 +138,34 @@ def __init__(
         prompts_dir: str = "translator/prompts"
     )
 ```
-Change ```lang: str = "igbo",``` to your target language
+- Change ```lang: str = "igbo",``` to your target language
+2.
+```
+def clean_translation_artifacts(self, text: str) -> str:
+        """
+        Wrapper that uses BaseCleaner to remove artifacts and also applies
+        any lightweight language-specific regexes if needed.
+        """
+        cleaned = self.cleaner.clean(text)
+
+        # Additional lightweight language-specific removals (extendable)
+        if self.lang == "igbo":
+            # common Igbo artifact patterns (examples)
+            igbo_patterns = [
+                r'\b(Enweghị mgbanwe|Ka ọ dị)[:]*\s*',
+                r'\b(O yiri nke mbụ|O ka dị otu a)[:]*\s*'
+            ]
+            for p in igbo_patterns:
+                cleaned = re.sub(p, '', cleaned, flags=re.IGNORECASE)
+            cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+
+```
+- Change ```   if self.lang == "igbo":
+            # common Igbo artifact patterns (examples)
+            igbo_patterns = [
+                r'\b(Enweghị mgbanwe|Ka ọ dị)[:]*\s*',
+                r'\b(O yiri nke mbụ|O ka dị otu a)[:]*\s*'
+            ] ``` to your target language
 
 
 
