@@ -74,7 +74,7 @@ Tonative-healthbench/
 ## Installation
 - Clone the project
 ```
-git clone <repo-url>
+git clone <https://github.com/Tonative-Research/Extending-Healthbench.git>
 cd <repo-name>
 ```
 - Create virtual environment
@@ -168,6 +168,13 @@ def clean_translation_artifacts(self, text: str) -> str:
             ] ``` to your target language. This is translated to English as
                ``` r'\b(No change|Remain the same)[:]*\s*',
                 r'\b(Same as before|Status remains)[:]*\s*' ```
+  ## Contribution
+  - Create a new branch
+  ```
+  git checkout -b feat/your-translation
+  ```
+  - Push and create a PR
+  
   
 
 
