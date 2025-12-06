@@ -165,7 +165,10 @@ def clean_translation_artifacts(self, text: str) -> str:
             igbo_patterns = [
                 r'\b(Enweghị mgbanwe|Ka ọ dị)[:]*\s*',
                 r'\b(O yiri nke mbụ|O ka dị otu a)[:]*\s*'
-            ] ``` to your target language
+            ] ``` to your target language. This is translated to English as
+               ``` r'\b(No change|Remain the same)[:]*\s*',
+                r'\b(Same as before|Status remains)[:]*\s*' ```
+  
 
 
 
