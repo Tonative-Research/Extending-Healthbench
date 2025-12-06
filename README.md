@@ -126,7 +126,7 @@ ANTHROPIC_API_KEY=your_claude_key
   "system_prompt": "You are an expert translator specializing in English → Igbo medical translation.\n\nTranslation rules:\n1. Keep drug names in English.\n2. Keep medical abbreviations like CPR, ECG, AHA in English.\n3. Keep measurements as digits.\n4. Translate descriptive text naturally.\n5. Keep academic citations exactly.\n6. Output ONLY the Igbo translation.\n\nTranslate the following medical text into Igbo:"}
 ```
 - In the healthbench_translator.py file, change every occurance of igbo to your target language. Below are the parts of the file where you have to make the changes.
--
+1. 
 ```
 def __init__(
         self,
