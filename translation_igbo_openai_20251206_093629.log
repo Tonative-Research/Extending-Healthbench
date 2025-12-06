@@ -1,0 +1,22 @@
+2025-12-06 09:36:29,851 - INFO - Loading data from data/2025-05-07-06-14-12_oss_eval.jsonl
+2025-12-06 09:36:30,462 - INFO - Using test size: 3
+2025-12-06 09:36:30,462 - INFO - Prepared 8 translation requests from 3 records.
+2025-12-06 09:36:30,469 - INFO - Starting realtime translation for 8 items (provider=openai)
+2025-12-06 09:36:30,469 - INFO - (1/8) Translating prompt id=1f548d5b-cd00-49a0-b327-283a2e00debd_prompt
+2025-12-06 09:36:36,651 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 09:36:36,833 - INFO - (2/8) Translating prompt id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_prompt
+2025-12-06 09:36:40,644 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 09:36:40,750 - INFO - (3/8) Translating ideal_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ideal
+2025-12-06 09:36:55,082 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 09:36:55,190 - INFO - (4/8) Translating ref_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ref_0
+2025-12-06 09:37:47,810 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 09:37:47,939 - INFO - (5/8) Translating ref_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ref_1
+2025-12-06 09:38:19,870 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 09:38:19,981 - INFO - (6/8) Translating ref_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ref_2
+2025-12-06 09:38:51,458 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 09:38:51,579 - INFO - (7/8) Translating ref_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ref_3
+2025-12-06 09:39:28,681 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 09:39:28,791 - INFO - (8/8) Translating prompt id=6f7a2ee9-e9c6-42d8-b79f-22dea966b8d2_prompt
+2025-12-06 09:39:30,716 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-06 09:39:30,823 - INFO - Saving translated dataset to output_data/igbo_test50.jsonl
+2025-12-06 09:39:30,826 - INFO - Saved 3 translated records to output_data/igbo_test50.jsonl

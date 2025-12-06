@@ -21,5 +21,5 @@ print(status)
 translator.download_and_save_results(
     batch_id="batch_691c3e358c90819097f4b0b416ada73a",
     original_input_file="data/2025-05-07-06-14-12_oss_eval.jsonl",
-    output_file="data/igbo_test50.jsonl"
+    output_file="output_data/igbo_test50.jsonl"
 )
