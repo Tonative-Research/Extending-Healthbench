@@ -36,7 +36,7 @@ By building a multilingual benchmark, we enable:
 
 ## Project Code Structure
 ```
-Tonative-openai/
+Tonative-healthbench/
 │
 |── data/
 │   ├── (local_datasets).jsonl             # original dataset
@@ -71,4 +71,67 @@ Tonative-openai/
 └── README.md
 
 ```
+## Installation
+- Clone the project
+```
+git clone <repo-url>
+cd <repo-name>
+```
+- Create virtual environment
+```
+python -m venv venv
+venv\Scripts\activate   # Windows
+```
+- Install dependencies
+```
+pip install -r requirements.txt
+```
+- Environment variables
+```
+OPENAI_API_KEY=your_openai_key
+ANTHROPIC_API_KEY=your_claude_key
+```
+## Running a translation
+- For OpenAI run
+```
+ python scripts/run_translation.py --provider openai --model gpt-4o-mini --lang {language e.g igbo} --input data/{dataset} --output output_data/{language_batchnumber_LLm}.jsonl --test_size {number}
+```
+- For Claude
+```
+ python scripts/run_translation.py --provider claude --model claude-3-haiku-20240307 --lang {language e.g igbo} --input data/{dataset}.jsonl --output output_data/{language_batchnumber_LMM}.jsonl --test_size {number}
+```
+## Things to note
+- In the artifacts_patterns.py, you would have to include the version for the language you are translating to. an example for the Igbo language is shown below
+```
+  patterns  = [
+            r'\b(Unchanged|No change|Keep in English|As stated|Maintain|Same as before)[:]*\s*',
+            r'\b(Class remains|Status remains|Value remains)[:]*\s*',
+            r'\b(Translation note|Note|Comment)[:]*\s*',
+
+            # Igbo versions
+            r'\b(Ogbanweghị mgbanwe|Enweghị mgbanwe|Ka ọ dị)[:]*\s*',
+            r'\b(Ka ọ dị tupu|O yiri nke mbụ)[:]*\s*',
+
+            r'\s*\([^)]*unchanged[^)]*\)',
+            r'\s*\([^)]*same[^)]*\)',
+
+            r'\s*-\s*(unchanged|no change|same)\s*',
+            r'\s*–\s*(unchanged|no change|same)\s*',
+        ]
+```
+- In the prompts folder, create a new prompt file for the language you are translating to example: ```igbo.json```, then add this lines of code changing every occurance of igbo to your target language
+  ```
+  {
+  "language": "igbo",
+  "system_prompt": "You are an expert translator specializing in English → Igbo medical translation.\n\nTranslation rules:\n1. Keep drug names in English.\n2. Keep medical abbreviations like CPR, ECG, AHA in English.\n3. Keep measurements as digits.\n4. Translate descriptive text naturally.\n5. Keep academic citations exactly.\n6. Output ONLY the Igbo translation.\n\nTranslate the following medical text into Igbo:"}
+```
+```
+
+
+
+
+
+
+
+
 
