@@ -1,0 +1,23 @@
+2025-12-06 09:40:20,201 - INFO - Loading data from data/2025-05-07-06-14-12_oss_eval.jsonl
+2025-12-06 09:40:20,861 - INFO - Using test size: 3
+2025-12-06 09:40:20,865 - INFO - Prepared 8 translation requests from 3 records.
+2025-12-06 09:40:20,866 - INFO - Starting realtime translation for 8 items (provider=claude)
+2025-12-06 09:40:20,866 - INFO - (1/8) Translating prompt id=1f548d5b-cd00-49a0-b327-283a2e00debd_prompt
+2025-12-06 09:40:51,626 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-12-06 09:40:51,751 - INFO - (2/8) Translating prompt id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_prompt
+2025-12-06 09:40:51,940 - INFO - Retrying request to /v1/messages in 0.398191 seconds
+2025-12-06 09:41:21,663 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-12-06 09:41:21,775 - INFO - (3/8) Translating ideal_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ideal
+2025-12-06 09:41:32,500 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-12-06 09:41:32,611 - INFO - (4/8) Translating ref_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ref_0
+2025-12-06 09:41:58,290 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-12-06 09:41:58,405 - INFO - (5/8) Translating ref_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ref_1
+2025-12-06 09:42:18,873 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-12-06 09:42:18,983 - INFO - (6/8) Translating ref_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ref_2
+2025-12-06 09:42:42,991 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-12-06 09:42:43,101 - INFO - (7/8) Translating ref_completion id=0b8f1d60-2081-4562-98f7-b6a976fe1c6d_ref_3
+2025-12-06 09:43:06,555 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-12-06 09:43:06,671 - INFO - (8/8) Translating prompt id=6f7a2ee9-e9c6-42d8-b79f-22dea966b8d2_prompt
+2025-12-06 09:43:08,229 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-12-06 09:43:08,336 - INFO - Saving translated dataset to output_data/igbo_test50_claude.jsonl
+2025-12-06 09:43:08,347 - INFO - Saved 3 translated records to output_data/igbo_test50_claude.jsonl
