@@ -14,4 +14,18 @@ Our project addresses these gaps by building the first multilingual medical AI e
 - Nigerian Pidgin
 - Kikuyu
 - Swahili
+  
 We combine LLM-as-judge evaluations and human medical expert evaluations to measure safety, correctness, and usability across languages.
+
+##Why this matters
+Medical AI is becoming increasingly influential yet African languages remain underrepresented. This causes:
+- Misinformation in medical conversations
+- Wrong dosage instructions
+- Misunderstandings in lower-literacy communities
+- Reduced trust in AI health tools
+
+By building a multilingual benchmark, we enable:
+- Safer, locally-relevant medical AI systems
+- Better tools for African NLP researchers
+- Evaluation methods tailored to real-world African health contexts
+- A baseline for future medical AI development in African languages
