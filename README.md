@@ -16,8 +16,7 @@ Our project addresses these gaps by building the first multilingual medical AI e
 - Swahili
   
 We combine LLM-as-judge evaluations and human medical expert evaluations to measure safety, correctness, and usability across languages.
-
-##Why this matters
+## Why this matters
 Medical AI is becoming increasingly influential yet African languages remain underrepresented. This causes:
 - Misinformation in medical conversations
 - Wrong dosage instructions
