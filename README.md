@@ -98,7 +98,7 @@ ANTHROPIC_API_KEY=your_claude_key
 ```
 - For Claude
 ```
- python scripts/run_translation.py --provider claude --model claude-3-5-sonnet-20240620 --lang {language e.g igbo} --input data/{dataset}.jsonl --output output_data/{language_batchnumber_LMM}.jsonl --test_size {number}
+ python scripts/run_translation.py --provider claude --model claude-sonnet-4-5 --lang {language e.g igbo} --input data/{dataset}.jsonl --output output_data/{language_batchnumber_LMM}.jsonl --test_size {number}
 ```
 ## Things to note
 - In the artifacts_patterns.py, you would have to include the version for the language you are translating to. an example for the Igbo language is shown below
